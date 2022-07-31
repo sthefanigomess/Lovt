@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Ropa Sans';
+    font-weight: normal;
+  }
+
+  header {
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    padding: 8px 31px 16px 44px;
+  }
+
+  div.logo{
+    display: flex;
+    text-align: center;
+  }
+
+  img#logoimg{
+    width: 63px;
+  }
+
+  img#menu{
+    margin-left: auto;
+    width: 18px;
+  }
+
+  .pos-logo{
+    font-size: 10px;
+    margin-left: 0.4%;
+    color: #AAAAAA;
+
+  }
+
+  main {
+    margin: 30px 45px 30px 44px;
+  }
+
+  div.slide{
+    width: 100%;
+    position: relative;
+    display: block;
+    
+  }
+
+  div.botao-navegacao{
+    position: absolute;
+    top: calc(50% - 39px);
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+  }
+
+  div#direito{
+    left: calc(100% - 59px);
+  }
+
+  img.img-slide{
+    width: 100%;
+  }
+
+  div.caixas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    margin-bottom: 45px;
+  }
+
+  div.caixa{
+    width: 42%;
+    background-color: #EEEEEE;
+  }
+
+  img.caixa-imagem{
+    width: 100%;
+  }
+
+  div.caixa-legenda{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 17px 13px 12px;
+  }
+
+  h3.caixa-preco{
+    font-size: 25px;
+    color: #888888;
+  }
+
+  h3.caixa-novo{
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #51D275;
+    padding: 3px 15px 1.5px 15px;
+    border-radius: 14px;
+  }
+
+  h3.caixa-venda{
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #DC9730;
+    padding: 3px 15px 1.5px 15px;
+    border-radius: 14px;
+  }
+
+  p.caixa-texto{
+    font-size: 13px;
+    color: #555555;
+    margin-left: 13px;
+    margin-right: 14px;
+    margin-bottom: 12px;
+    text-align: justify;
+  }
