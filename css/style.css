@@ -110,4 +110,45 @@
     margin-right: 14px;
     margin-bottom: 12px;
     text-align: justify;
+  } 
+
+  div.estilos{
+    display: flexbox;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  h2.estilos-titulo{
+    font-size: 25px;
+    color: #888888;
+    margin-bottom: 20px;
+  }
+
+  ul.estilos-lista{
+    list-style-type: none;
+  }
+
+  img.estilos-imagem{
+    width: 100%;
+    opacity: 80%;
+  }
+
+  li.estilos-lista-item{
+    position: relative;
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  h3.estilo-titulo{
+    color: #FFFFFF;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  footer{
+    
   }
