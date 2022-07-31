@@ -35,6 +35,7 @@
 
   main {
     margin: 30px 45px 30px 44px;
+    display: flexbox;
   }
 
   div.slide{
